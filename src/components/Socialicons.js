@@ -14,7 +14,7 @@ function Socialicons(props){
 
   return (
     <ul className={props.bordered ? 'mi-socialicons mi-socialicons-bordered' : 'mi-socialicons'}>
-      {!socialLinks.facebook ? null : <li>
+      {/* {!socialLinks.facebook ? null : <li>
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.facebook}>
           <LineIcon name="facebook"/>
         </a>
@@ -33,17 +33,17 @@ function Socialicons(props){
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.behance}>
           <LineIcon name="behance"/>
         </a>
-      </li>}
+      </li>} */}
       {!socialLinks.linkedin ? null : <li>
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.linkedin}>
           <LineIcon name="linkedin"/>
         </a>
       </li>}
-      {!socialLinks.dribbble ? null : <li>
+      {/* {!socialLinks.dribbble ? null : <li>
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.dribbble}>
           <LineIcon name="dribbble"/>
         </a>
-      </li>}
+      </li>} */}
       {!socialLinks.github ? null : <li>
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.github}>
           <LineIcon name="github"/>

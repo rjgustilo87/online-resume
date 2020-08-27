@@ -5,14 +5,14 @@ import FsLightbox from "fslightbox-react";
 import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
-import Service from "../components/Service";
-import Testimonial from "../components/Testimonial";
+// import Service from "../components/Service";
+// import Testimonial from "../components/Testimonial";
 
 function About() {
   const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
-  const [services, setServices] = useState([]);
-  const [reviews, setReviews] = useState([]);
+  // const [services, setServices] = useState([]);
+  // const [reviews, setReviews] = useState([]);
 
   const sliderSettings = {
     dots: false,
@@ -46,12 +46,12 @@ function About() {
     axios.get("/api/information").then((response) => {
       setInformation(response.data);
     });
-    axios.get("/api/services").then((response) => {
-      setServices(response.data);
-    });
-    axios.get("/api/reviews").then((response) => {
-      setReviews(response.data);
-    });
+    // axios.get("/api/services").then((response) => {
+    //   setServices(response.data);
+    // });
+    // axios.get("/api/reviews").then((response) => {
+    //   setReviews(response.data);
+    // });
   }, []);
 
   return (
@@ -131,7 +131,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="mi-service-area mi-section mi-padding-top">
+      {/* <div className="mi-service-area mi-section mi-padding-top">
         <div className="container">
           <Sectiontitle title="Services" />
           <div className="mi-service-wrapper">
@@ -147,8 +147,8 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
+      </div> */}
+      {/* <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Reviews" />
           <div className="row justify-content-center">
@@ -161,7 +161,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 }

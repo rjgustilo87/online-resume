@@ -19,10 +19,10 @@ const database = {
       behance: '',
       linkedin: 'https://www.linkedin.com/in/ronaldgustilo/',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/rjgustilo87'
     },
     brandImage: '/images/profile.jpeg',
-    aboutImage: '/images/about-image.jpg',
+    aboutImage: '/images/GUSTILO-29.JPG',
     aboutImageLg: '/images/about-image-lg.jpg',
     cvfile: '/files/Ronald Gustilo.pdf'
   },
@@ -70,6 +70,10 @@ const database = {
     }
   ],
   skills: [
+    {
+      title: "PHP",
+      value: 95
+    },
     {
       title: "HTML5",
       value: 95
@@ -464,8 +468,8 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
+    phoneNumbers: ['949-527-5496'],
+    emailAddress: ['rjgustilo@gmail.com'],
     address: "121 King Street, Melbourne, Victoria 3000, Australia"
   }
 }
