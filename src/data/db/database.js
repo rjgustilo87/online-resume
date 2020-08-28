@@ -5,16 +5,16 @@ const database = {
     name: 'RJ Gustilo',
     fullName: 'Ronald Joseph Gustilo',
     aboutContent: "I am a dynamic, curious, and driven IT professional with a proven record of leading projects from concept to completion, designing efficient solutions and strategies for business continuity, improving user experience for internal and external stakeholders, and coaching team members to success. Work experience at start up, mid-sized, and Fortune 500 companies.",
-    age: 32,
+    age: '',
     phone: '',
-    nationality: 'American',
-    language: 'English, Tagalog',
-    email: '',
-    address: '121 King Street, Melbourne, Australia',
+    nationality: '',
+    language: '',
+    email: 'rjgustilo@gmail.com',
+    address: '',
     freelanceStatus: 'N/A',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      facebook: '',
+      twitter: '',
       pinterest: '',
       behance: '',
       linkedin: 'https://www.linkedin.com/in/ronaldgustilo/',
@@ -83,20 +83,40 @@ const database = {
       value: 90
     },
     {
-      title: "Javascript",
-      value: 70
-    },
-    {
       title: "jQuery",
       value: 85
+    },
+    {
+      title: "Javascript",
+      value: 80
     },
     {
       title: "ReactJS",
       value: 80
     },
     {
-      title: "Photoshop",
-      value: 65
+      title: "NodeJS",
+      value: 80
+    },
+    {
+      title: "ExpressJS",
+      value: 75
+    },
+    {
+      title: "API",
+      value: 75
+    },
+    {
+      title: "MongoDB",
+      value: 75
+    },
+    {
+      title: "MySQL",
+      value: 85
+    },
+    {
+      title: "MariaDB",
+      value: 80
     }
   ],
   portfolios: [
@@ -286,48 +306,48 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
+        year: "February 2013 - Present",
+        position: "IT Director",
+        company: "Inco-Check, Inc.",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
+        year: "August 2013 – February 2014",
+        position: "Senior Web Developer",
+        company: "Inco-Check, Inc.",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
+        year: "August 2011 – August 2013",
+        position: "Programmer/Analyst II",
+        company: "Verizon Wireless",
+        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      },
+      {
+        id: 4,
+        year: "November 2010-June 2011",
+        position: "Web Developer",
+        company: "Trivedi Foundation",
+        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      },
+      {
+        id: 5,
+        year: "November 2009 – September 2010",
+        position: "Web Developer",
+        company: "VStaff",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2005 - 2009",
+        graduation: "Bachelor in Science Major in Computer Science",
+        university: "University of Saint La Salle",
+        details: ""
       },
-      {
-        id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
     ]
   },
   blogs: [
