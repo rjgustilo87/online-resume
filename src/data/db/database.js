@@ -117,6 +117,26 @@ const database = {
     {
       title: "MariaDB",
       value: 80
+    },
+    {
+      title: "AWS",
+      value: 80
+    },
+    {
+      title: "Project Management",
+      value: 85
+    },
+    {
+      title: "Testing & Troubleshooting",
+      value: 90
+    },
+    {
+      title: "Process Optimization",
+      value: 90
+    },
+    {
+      title: "IT Infrastructure Implementation",
+      value: 90
     }
   ],
   portfolios: [
